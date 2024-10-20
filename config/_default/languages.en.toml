@@ -1,0 +1,27 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Ale."
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = ""
+
+
+[params.author]
+image = "AlejandroMagallon.jpg"
+name = "Ale."
+email = "aletec.contact@gmail.com"
+headline = "Software Engineer and AI+Data Engineering Student based in Spain"
+links = [
+    { github = "https://github.com/alecron" },
+    { tiktok = "https://tiktok.com/@elaletec" },
+    { instagram = "https://instagram.com/aletecnstuff" },
+    { linkedin = "https://linkedin.com/in/amagallon" },
+    { x-twitter = "https://www.x.com/aletecnstuff" },
+    { youtube = "https://www.youtube.com/@AleTecnstuff" }
+]
