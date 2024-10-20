@@ -8,9 +8,11 @@ disableImageOptimization = false
 disableTextInHeader = false
 giteaDefaultServer = "https://git.fsfe.org"
 forgejoDefaultServer = "https://v8.next.forgejo.org"
+customCSS = ["css/custom.css"]
+defaultBackgroundImage = "img/background.svg"
 
 [header]
-layout = "basic"
+layout = "fixed"
 
 [footer]
 showMenu = true
@@ -20,15 +22,14 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
+layout = "custom"
 showRecent = true
-showRecentItems = 5
-showMoreLink = false
-showMoreLinkDest = "/posts/"
+showRecentItems = 6
+showMoreLink = true
+showMoreLinkDest = "/posts"
 cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
-defaultBackgroundImage = "/img/background.svg"
 
 [article]
 showDate = true

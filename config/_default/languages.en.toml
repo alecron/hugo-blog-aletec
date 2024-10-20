@@ -13,10 +13,11 @@ description = ""
 
 
 [params.author]
-image = "AlejandroMagallon.jpg"
+image = "profile.jpg"
 name = "Ale."
 email = "aletec.contact@gmail.com"
-headline = "Software Engineer and AI+Data Engineering Student based in Spain"
+headline = "Software Engineer and Content Creator based in Spain"
+bio = "I'm a 24 years old Software Engineer and Content Creator based in Spain. I love to create content about technology, programming, and productivity. I'm passionate about learning new things and sharing my knowledge with the world. Plus, I'm studying a master's degree in Artificial Intelligence and Data Engineering, my newest passion that I hope to share with you soon."
 links = [
     { github = "https://github.com/alecron" },
     { tiktok = "https://tiktok.com/@elaletec" },
