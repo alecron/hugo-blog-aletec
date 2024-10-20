@@ -1,11 +1,9 @@
 +++
 date = '2024-10-20T01:39:32+02:00'
-draft = true
-title = 'How this works?'
+draft = false
+title = 'How does thi work?'
 backgroundImage = 'img/background.svg'
 +++
-
-# Well.... I'm not really sure how this works but hope I make it out alive
 
 I mean, this is not an issue or whatever but how can it be so hard to make the background image work?
 
@@ -15,6 +13,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor in
 
 ##  The image
 
-![The image](/img/background.svg)
+![The image](img/background.svg)
 
 Oh so here it is, the image that I was talking about. It's a simple SVG file that I wanted to use as a background image. But it's not working. I'm not sure why but I'll figure it out. I'm sure I will.
+
+## The solution
+
+Well... maybe I keep this test-post here just in case anyone else has the same issue.
+
+The thing was that i was setting the `defaultBackgroundImage` param under the homepage section in the `config.toml` file, when it was supposed to be set in the root of the file.
+
+I might swap to yaml or json for the config file, just to make it easier to read and understand as i dont really like the toml format.
+
+### I almost forgot
+
+I didn't like the default background layout, I found the `Profile` layout to be more appealing. The thing is that the background image doesn't work with that layout, so i made a custom layout taking the profile one as a base and adding the background image to it, feel free to check it out in the `layouts/partials/home` folder.
+
+![alt text](image.png)
