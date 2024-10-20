@@ -1,10 +1,7 @@
 # netlify.toml
 
 [build]
-  command = """\
-    git submodule update --init --recursive && \
-    hugo --gc --minify
-  """
+  command = "hugo mod get -u && hugo --gc --minify -b $URL"
   publish = "public"
 
 [build.environment]

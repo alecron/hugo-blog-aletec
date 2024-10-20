@@ -1,4 +1,3 @@
-theme = "blowfish"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 paginate = 10
