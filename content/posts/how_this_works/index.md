@@ -1,7 +1,7 @@
 +++
 date = '2024-10-20T01:39:32+02:00'
 draft = false
-title = 'How does thi work?'
+title = 'How does this work?'
 backgroundImage = 'img/background.svg'
 +++
 
