@@ -1,13 +1,13 @@
 # netlify.toml
 
 [build]
-  command = "hugo mod get -u && hugo --gc --minify -b $URL"
+  command = "hugo mod tidy && hugo --gc --minify --enableGitInfo -b $URL"
   publish = "public"
 
 [build.environment]
   NODE_ENV = "production"
   GO_VERSION = "1.23.2"
-  TZ = "UTC"  # Set to preferred timezone
+  TZ = "UTC"
 
 [context.production.environment]
   HUGO_VERSION = "0.136.2"
@@ -15,3 +15,29 @@
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.136.2"
+  HUGO_ENV = "development"
+
+# Force HTTPS
+[[redirects]]
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true
+
+# Canonical host redirect (www -> apex)
+[[redirects]]
+  from = "https://www.aletecnstuff.com/*"
+  to = "https://aletecnstuff.com/:splat"
+  status = 301
+  force = true
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "accelerometer=(), ambient-light-sensor=(), autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; font-src 'self' data: https:; connect-src 'self' https:; object-src 'none'; upgrade-insecure-requests"
