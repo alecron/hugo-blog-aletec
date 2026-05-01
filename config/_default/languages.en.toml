@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+locale = "en"
+label = "English"
 weight = 1
 title = "Ale."
 
@@ -9,7 +9,7 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-description = ""
+description = "Software Engineer and Content Creator based in Spain — writing about technology, programming, AI and productivity."
 
 
 [params.author]
