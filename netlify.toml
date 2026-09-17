@@ -1,17 +1,21 @@
 # netlify.toml
 
+# Blowfish v3 requires the *extended* Hugo build (it compiles SCSS), and pins a
+# supported range of 0.162.0 to 0.165.0. Netlify's own HUGO_VERSION goes through
+# binrc, which gives no guarantee about getting the extended build, so fetch the
+# exact extended binary instead of leaving it to chance.
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = """
+    curl -sSfL https://github.com/gohugoio/hugo/releases/download/v0.165.0/hugo_extended_0.165.0_linux-amd64.tar.gz | tar -xz -C /tmp hugo && \
+    /tmp/hugo version && \
+    /tmp/hugo --gc --minify -b $URL
+  """
   publish = "public"
 
 [build.environment]
   NODE_ENV = "production"
-  GO_VERSION = "1.23.2"
-  TZ = "UTC"  # Set to preferred timezone
+  GO_VERSION = "1.23.2"   # required: Hugo modules are fetched with the go tool
+  TZ = "UTC"
 
 [context.production.environment]
-  HUGO_VERSION = "0.136.2"
   HUGO_ENV = "production"
-
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.136.2"

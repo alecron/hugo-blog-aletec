@@ -15,6 +15,8 @@ Today, to bring this back to life a little, I want to share two very interesting
 
 ## Ecosystems, culture and architecture
 
+{{< youtubeLite id="2n41YjR5QfU" label="Software engineering at the tipping point" >}}
+
 [Software engineering at the tipping point](https://youtu.be/2n41YjR5QfU) breaks down the concept of ecosystems, and how a company's internal culture massively shapes the architecture of its applications. Plenty to think about, honestly.
 
 What does your company's ecosystem look like? I don't think that's a simple question to answer, and I think it's well worth sitting with it for a bit, along with whether we're ready to face a world of more code, more vulnerable surface, far more context for agents, bigger binaries, faster pace... and brand-new bottlenecks.
@@ -22,6 +24,8 @@ What does your company's ecosystem look like? I don't think that's a simple ques
 I'm genuinely curious to see what the industry looks like in 5 or 10 years. And yes, in a way, I'm trusting that there will still be an industry in 5 or 10 years.
 
 ## Raising tomorrow's seniors properly
+
+{{< youtubeLite id="W6aOdLlEz1w" label="Should You Still Become a Software Engineer in 2026?" >}}
 
 In [Should You Still Become a Software Engineer in 2026?](https://youtu.be/W6aOdLlEz1w), a GitHub (Microsoft) VP talks, in his own way, about how important it is to raise tomorrow's seniors properly. About staying curious, about learning to write good prompts, about understanding the difference in complexity between saying "build me a Minecraft clone" and saying:
 

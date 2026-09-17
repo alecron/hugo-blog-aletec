@@ -1,6 +1,6 @@
 disabled = false
-languageCode = "es"
-languageName = "Español"
+locale = "es"
+label = "Español"
 weight = 1
 title = "Ale."
 

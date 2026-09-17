@@ -51,21 +51,47 @@ Netlify builds with `TZ=UTC`.
 
 ## Netlify / build
 
-The build command must **not** contain `hugo mod get -u`. That flag upgrades
-Blowfish past what `HUGO_VERSION` supports and the build dies with
-`function "try" not defined`. Hugo already downloads the modules declared in
-`go.mod` at build time, so no explicit fetch step is needed.
+Blowfish v3 compiles SCSS, so it needs the **extended** Hugo build, and it pins a
+supported range of `0.162.0` to `0.165.0`. Netlify installs `HUGO_VERSION` via
+binrc, which makes no promise about giving you the extended build, so
+`netlify.toml` downloads the exact extended binary itself and calls it directly.
+Do not "simplify" that back to a bare `HUGO_VERSION`.
 
-Current pins: `HUGO_VERSION = 0.136.2`, Blowfish `v2.78.0` in `go.mod`.
+Never put `hugo mod get -u` in the build command. Hugo downloads the modules in
+`go.mod` at build time on its own, and `-u` walks the theme forward to a version
+the pinned Hugo cannot run (this is what once broke the deploy with
+`function "try" not defined`).
 
-The theme is actively maintained and has moved on to a v3 line. Note the major
-version is part of the Go module path, so `hugo mod get -u` only ever walks the
-v2 line (it lands on v2.106.0); reaching v3 means editing the import path in
-`config/_default/module.toml` to `github.com/nunocoracao/blowfish/v3`.
+`GO_VERSION` must stay set: Hugo uses the go tool to fetch modules.
 
-Either upgrade requires Hugo **extended** (`module.toml` currently declares
-`extended = false`) and needs `layouts/partials/home/custom.html` revalidated
-against the newer theme partials.
+Current pins: Hugo `0.165.0+extended`, Blowfish `v3.6.0`.
+
+The theme's major version is part of the Go module path, so `hugo mod get -u`
+only ever walks within the current major. Moving to v4 later means editing the
+import path in `config/_default/module.toml`.
+
+## Config keys that moved
+
+- Hugo 0.158 renamed `languageCode` to `locale` and `languageName` to `label`.
+  Both language files and the root `hugo.toml` use the new names.
+- Blowfish v3 dropped the `customCSS` param. `assets/css/custom.css` is picked up
+  automatically and concatenated into `css/main.bundle.min.*.css`, so it will not
+  appear as its own `<link>` tag.
+
+## Article features
+
+- **Thumbnails**: drop a `featured.png` (or `.jpg`) into the post's bundle
+  directory. Both translations share it. `[article] showHero` with
+  `heroStyle = "thumbAndBackground"` renders it at the top, and
+  `[list] showCards` puts it on the cards. A post with no `featured.*` simply gets
+  no thumbnail.
+- **Videos**: use `{{< youtubeLite id="VIDEO_ID" label="Title" >}}`. It renders a
+  `lite-youtube` element that loads only a thumbnail until clicked, rather than a
+  full iframe.
+- **Reading progress bar**: `[article] showReadingProgress = true`.
+- The theme ships 46 shortcodes (`gallery`, `carousel`, `timeline`, `steps`,
+  `chart`, `mermaid`, `katex`, `alert`, `badge`, `figure`, `tabs`, ...). Check
+  `layouts/shortcodes/` in the theme module before hand-rolling markup.
 
 ## Gotchas
 
@@ -75,11 +101,19 @@ against the newer theme partials.
 
 ## Verifying locally
 
-There is no Hugo in the repo tooling. Install the version Netlify pins and build:
+There is no Hugo in the repo tooling, and the extended build has to be compiled
+with CGO:
 
 ```sh
-go install github.com/gohugoio/hugo@v0.136.2
+CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@v0.165.0
 hugo --minify -b https://aletecnstuff.com/ -d /tmp/pub
 ```
 
-Confirm both languages appear in the build table and that the expected URLs exist.
+A clean run prints no `WARN` lines. Confirm both languages appear in the build
+table and that the expected URLs exist. To reproduce what Netlify actually does,
+build from a fresh checkout with a cold module cache:
+
+```sh
+git archive --format=tar "$(git write-tree)" | tar -x -C /tmp/fresh
+cd /tmp/fresh && HUGO_CACHEDIR=/tmp/coldcache hugo --gc --minify -b https://aletecnstuff.com/
+```

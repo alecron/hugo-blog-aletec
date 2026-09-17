@@ -15,6 +15,8 @@ Hoy, para revivir esto un poco, quiero compartir dos vídeos muy interesantes qu
 
 ## Ecosistemas, cultura y arquitectura
 
+{{< youtubeLite id="2n41YjR5QfU" label="Software engineering at the tipping point" >}}
+
 [Software engineering at the tipping point](https://youtu.be/2n41YjR5QfU) desgrana el concepto de los ecosistemas, y el cómo la cultura interna de la empresa afecta muchísimo a la arquitectura de las aplicaciones. Da para reflexionar xd
 
 ¿Cómo es el ecosistema de tu empresa? Creo que no es una respuesta sencilla, y creo que vale mucho la pena darle una vuelta a eso, y a si estamos preparados para afrontar una escalada de más código, con más superficie vulnerable, con mucho más contexto para los agentes, binarios más grandes, ritmos más acelerados... y nuevos cuellos de botella.
@@ -22,6 +24,8 @@ Hoy, para revivir esto un poco, quiero compartir dos vídeos muy interesantes qu
 Me intriga muchísimo llegar a ver cómo será la industria en 5 o 10 años. Y sí, en cierto modo confío en que siga habiendo una industria en 5 o 10 años.
 
 ## Educar bien a los seniors de mañana
+
+{{< youtubeLite id="W6aOdLlEz1w" label="Should You Still Become a Software Engineer in 2026?" >}}
 
 En [Should You Still Become a Software Engineer in 2026?](https://youtu.be/W6aOdLlEz1w), un VP de GitHub (Microsoft) habla de algún modo de la importancia de educar bien a los seniors de mañana. De ser curioso, de aprender a hacer buenos prompts, de entender la complejidad de decir "haz un clon de Minecraft" en lugar de:
 
