@@ -1,7 +1,7 @@
 disabled = false
 languageCode = "es"
 languageName = "Español"
-weight = 2
+weight = 1
 title = "Ale."
 
 [params]
