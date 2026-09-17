@@ -56,16 +56,19 @@ Blowfish past what `HUGO_VERSION` supports and the build dies with
 `function "try" not defined`. Hugo already downloads the modules declared in
 `go.mod` at build time, so no explicit fetch step is needed.
 
-Current pins: `HUGO_VERSION = 0.136.2`, Blowfish `v2.78.0` in `go.mod`. Upgrading
-the theme to v2.106.0+ requires Hugo **extended** (`module.toml` currently
-declares `extended = false`) and would need `layouts/partials/home/custom.html`
-revalidated against the newer theme partials.
+Current pins: `HUGO_VERSION = 0.136.2`, Blowfish `v2.78.0` in `go.mod`.
+
+The theme is actively maintained and has moved on to a v3 line. Note the major
+version is part of the Go module path, so `hugo mod get -u` only ever walks the
+v2 line (it lands on v2.106.0); reaching v3 means editing the import path in
+`config/_default/module.toml` to `github.com/nunocoracao/blowfish/v3`.
+
+Either upgrade requires Hugo **extended** (`module.toml` currently declares
+`extended = false`) and needs `layouts/partials/home/custom.html` revalidated
+against the newer theme partials.
 
 ## Gotchas
 
-- `resources/_gen` contains files tracked by git even though `resources/` is in
-  `.gitignore`. `hugo --gc` deletes them. Run `git checkout -- resources/` before
-  staging, or they land in the commit as deletions.
 - The homepage uses a local override, `layouts/partials/home/custom.html`. It
   renders the author's name, headline and links, but **not** `author.bio`. The bio
   only shows in the author box under articles. This is intentional.
