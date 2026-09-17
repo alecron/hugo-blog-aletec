@@ -1,12 +1,12 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
-weight = 1
+languageCode = "es"
+languageName = "Español"
+weight = 2
 title = "Ale."
 
 [params]
-displayName = "EN"
-isoCode = "en"
+displayName = "ES"
+isoCode = "es"
 rtl = false
 dateFormat = "2 January 2006"
 description = ""
@@ -16,8 +16,8 @@ description = ""
 image = "profile.jpg"
 name = "Ale."
 email = "aletec.contact@gmail.com"
-headline = "Software Engineer and Content Creator based in Spain"
-bio = "I'm a 26 year old Software Engineer living in Spain. Every now and then I like to share what I know and create content, so you can find me on YouTube, TikTok and right here to see a bit more of me and the way I live technology."
+headline = "Software Engineer y creador de contenido, desde España"
+bio = "Soy un Software Engineer de 26 años viviendo en España y de vez en cuando me gusta divulgar y crear contenido, así que puedes encontrarme por YouTube, TikTok y por aquí mismo para ver un poco más de mí y mi forma de vivir la tecnología."
 links = [
     { github = "https://github.com/alecron" },
     { tiktok = "https://tiktok.com/@elaletec" },
