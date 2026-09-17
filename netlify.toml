@@ -15,3 +15,10 @@
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.136.2"
+
+# The Spanish-default switch moved English content under /en/.
+# Preserve the previously published URL.
+[[redirects]]
+  from = "/posts/how_this_works/"
+  to = "/en/posts/how_this_works/"
+  status = 301
