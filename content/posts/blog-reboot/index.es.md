@@ -7,7 +7,7 @@ description = 'Vuelvo a escribir aquí, y lo hago compartiendo dos vídeos sobre
 tags = ['blog', 'ingeniería de software', 'reflexiones', 'vídeos']
 +++
 
-Este blog lleva un tiempo abandonado. Y aunque cada semana tengo mil ideas nuevas para arrancarlo —desde rebrandear el concepto de "Aletec", a moverlo a una página de Medium o Substack, o gestionarlo con un agente automático al que soltarle mis pensamientos—, he decidido que por ahora lo voy a usar como un repositorio en el que contar las cosas que he visto y me parecen interesantes.
+Este blog lleva un tiempo abandonado. Y aunque cada semana tengo mil ideas nuevas para arrancarlo (desde rebrandear el concepto de "Aletec", a moverlo a una página de Medium o Substack, o gestionarlo con un agente automático al que soltarle mis pensamientos), he decidido que por ahora lo voy a usar como un repositorio en el que contar las cosas que he visto y me parecen interesantes.
 
 Que es, creo, la pura esencia de los blogs temáticos. De esos blogspot de 2012 en los que cada uno compartía sus ideas para las 10 personas que le veían. Sí: la definición de blog de toda la vida.
 
@@ -23,7 +23,7 @@ Me intriga muchísimo llegar a ver cómo será la industria en 5 o 10 años. Y s
 
 ## Educar bien a los seniors de mañana
 
-[Should You Still Become a Software Engineer in 2026?](https://youtu.be/W6aOdLlEz1w) — aquí un VP de GitHub (Microsoft) habla de algún modo de la importancia de educar bien a los seniors de mañana. De ser curioso, de aprender a hacer buenos prompts, de entender la complejidad de decir "haz un clon de Minecraft" en lugar de:
+En [Should You Still Become a Software Engineer in 2026?](https://youtu.be/W6aOdLlEz1w), un VP de GitHub (Microsoft) habla de algún modo de la importancia de educar bien a los seniors de mañana. De ser curioso, de aprender a hacer buenos prompts, de entender la complejidad de decir "haz un clon de Minecraft" en lugar de:
 
 > Necesito que generes un videojuego 3D basado en cubos/vóxels, donde el personaje principal tiene un inventario en el que puede utilizar los materiales que recoge para crear nuevas cosas. En la primera iteración del juego tenemos que conseguir una generación procedural del terreno, y que haya por lo menos 3 materiales de suelo y movimiento del personaje...
 

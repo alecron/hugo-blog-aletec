@@ -7,7 +7,7 @@ description = 'I am writing here again, starting with two videos about ecosystem
 tags = ['blog', 'software engineering', 'thoughts', 'videos']
 +++
 
-This blog has been abandoned for a while. And even though every week I come up with a thousand new ideas to get it going again —from rebranding the whole "Aletec" concept, to moving it over to Medium or Substack, to handing it off to an automated agent I could just dump my thoughts into— I've decided that, for now, I'm going to use it as a repository for the things I've come across and found interesting.
+This blog has been abandoned for a while. And even though every week I come up with a thousand new ideas to get it going again (from rebranding the whole "Aletec" concept, to moving it over to Medium or Substack, to handing it off to an automated agent I could just dump my thoughts into), I've decided that, for now, I'm going to use it as a repository for the things I've come across and found interesting.
 
 Which is, I think, the pure essence of a topic blog. Those 2012 Blogspot pages where everyone shared their ideas with the 10 people who read them. Yes: the good old definition of a blog.
 
@@ -17,7 +17,7 @@ Today, to bring this back to life a little, I want to share two very interesting
 
 [Software engineering at the tipping point](https://youtu.be/2n41YjR5QfU) breaks down the concept of ecosystems, and how a company's internal culture massively shapes the architecture of its applications. Plenty to think about, honestly.
 
-What does your company's ecosystem look like? I don't think that's a simple question to answer, and I think it's well worth sitting with it for a bit — along with whether we're ready to face a world of more code, more vulnerable surface, far more context for agents, bigger binaries, faster pace... and brand-new bottlenecks.
+What does your company's ecosystem look like? I don't think that's a simple question to answer, and I think it's well worth sitting with it for a bit, along with whether we're ready to face a world of more code, more vulnerable surface, far more context for agents, bigger binaries, faster pace... and brand-new bottlenecks.
 
 I'm genuinely curious to see what the industry looks like in 5 or 10 years. And yes, in a way, I'm trusting that there will still be an industry in 5 or 10 years.
 
