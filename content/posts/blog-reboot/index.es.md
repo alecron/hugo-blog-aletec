@@ -1,7 +1,7 @@
 +++
 date = '2026-09-17T10:00:00+02:00'
 draft = false
-title = 'Reviviendo el blog: dos vídeos que me han removido cosas'
+title = '¿Vale la pena seguir siendo Ingeniero de Software? Y otras ideas felices'
 slug = 'reviviendo-el-blog'
 description = 'Vuelvo a escribir aquí, y lo hago compartiendo dos vídeos sobre ecosistemas, cultura de empresa, arquitectura y qué significa ser Software Engineer y no solo programador.'
 tags = ['blog', 'ingeniería de software', 'reflexiones', 'vídeos']

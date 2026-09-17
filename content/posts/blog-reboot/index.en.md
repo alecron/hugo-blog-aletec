@@ -1,7 +1,7 @@
 +++
 date = '2026-09-17T10:00:00+02:00'
 draft = false
-title = 'Reviving the blog: two videos that stirred a few things up'
+title = 'Is it still worth being a Software Engineer? And other happy thoughts'
 slug = 'blog-reboot'
 description = 'I am writing here again, starting with two videos about ecosystems, company culture, architecture, and what it means to be a Software Engineer rather than just a programmer.'
 tags = ['blog', 'software engineering', 'thoughts', 'videos']
