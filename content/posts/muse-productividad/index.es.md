@@ -17,7 +17,9 @@ Esa es la tesis del vídeo de hoy. Y es la razón por la que lo que acaba de pre
 
 Repasemos, porque han sido dos semanas intensas.
 
-El 8 de septiembre Meta presentó **Muse**, un agente personal de IA construido sobre su nueva generación de modelos, dirigida por Alexandr Wang como chief AI officer. Sale gratis para la mayoría de usos, con planes de suscripción por encima. Meta no ha publicado los tramos en su web, aunque Bloomberg y Axios apuntaron a 20 y 100 dólares al mes.
+El 8 de septiembre Meta presentó **Muse**, un agente personal de IA construido sobre su nueva generación de modelos, dirigida por Alexandr Wang como chief AI officer. Tres niveles: gratis, 20 dólares al mes y 100 dólares al mes. Solo en Estados Unidos por ahora, a través de una app propia o de WhatsApp, y con las gafas por llegar.
+
+El 15 de septiembre, y esto es lo que casi nadie ha mirado, lanzaron **Meta One**. Volveremos a ello, porque para mí es la pieza más importante de todo el movimiento.
 
 El 23 de septiembre, en el Connect, llegó el resto: el **Muse Charm**, un cacharro de llavero para hablar con Muse sin móvil, las **Meta VR Glasses** por 1.299 dólares, unas Ray-Ban Meta de solo audio a las que le han quitado la cámara, y un modelo nuevo, Muse Realtime Avatar, que le pone cara, cuerpo y voz al asistente.
 
@@ -113,6 +115,40 @@ Es un producto extraordinario que se quedó atrapado en el público de early ado
 
 Las Meta VR Glasses cuestan un tercio, pesan una quinta parte que una Quest 3, y se presentan con IMAX y deporte en directo en lugar de con productividad espacial. Una es una proeza de ingeniería buscando su público. La otra es un producto buscando a la gente donde la gente ya está.
 
+## La jugada que casi nadie está mirando
+
+Mientras todos mirábamos los cacharros, el 15 de septiembre Meta lanzó **Meta One**. Y el nombre no es casualidad, que nadie se haga el sorprendido: se llama como Google One.
+
+Es una suscripción que cruza Instagram, Facebook, WhatsApp, Meta AI y Edits, y que van a extender a las gafas. Ya está disponible a nivel global. Los tramos, de su propia nota de prensa:
+
+| Plan | Precio |
+| --- | --- |
+| WhatsApp Plus | 2,99 $/mes |
+| Instagram Plus | 3,99 $/mes |
+| Facebook Plus | 3,99 $/mes |
+| Core | 7,99 $/mes |
+| Premium | 19,99 $/mes |
+| Essential (creadores y negocios) | desde 14,99 $/mes |
+| Advanced | desde 49,99 $/mes |
+| Expert | desde 149 $/mes |
+| Max | desde 499 $/mes |
+
+Fíjate por dónde empieza eso. **2,99 al mes.** Tres euros. Eso no es un producto premium, eso es una factura de la luz. Es precio de no pensarlo.
+
+Y la frase que lo explica todo está en su propia nota: "the core experience across our apps and Meta AI will stay free". Lo gratis sigue gratis. Lo que pagas es más capacidad.
+
+Ese es el modelo Google One y el modelo iCloud, y funciona porque no te vende una herramienta, te vende que todo lo que ya usabas vaya un poco mejor. Nadie contrata iCloud porque le apasione iCloud. Lo contrata porque se le llenó el móvil. Meta está construyendo el mismo reflejo: mucho valor repartido en muchos sitios, por poco dinero, sin que tengas que entender qué estás comprando.
+
+Y sí, pagando con nuestra privacidad, como siempre. Eso no ha cambiado y no conviene fingir que sí.
+
+### Mi predicción, y resulta que ya está empezada
+
+Yo esperaba decir aquí que no me extrañaría que Meta anunciase pronto su propio almacenamiento en la nube como extra de esta suscripción. Y al ir a comprobarlo me encontré con que **ya está dentro**, en pequeño: la nota de Meta One menciona, para Edits Plus, "more cloud storage so you can sync and access projects across devices".
+
+O sea que la semilla ya está plantada. No hace falta predecir nada: solo hay que ver el tamaño de la maceta.
+
+Si eres Meta y ya tienes al usuario pagando 2,99 al mes, ya le guardas las fotos, ya le guardas los mensajes y ahora le vas a poner unas gafas que graban su vida y un agente que gestiona sus compras, el almacenamiento general es el siguiente casillero obvio. Y con las gafas generando vídeo, hace falta sitio donde ponerlo.
+
 ## El problema que Meta no puede resolver con hardware
 
 Y ahora la parte incómoda, porque nada de esto garantiza nada.
@@ -131,7 +167,11 @@ Porque el mejor modelo es un titular que dura tres semanas hasta que alguien sac
 
 No pretenden sustituir tu móvil a la fuerza. No te piden que aprendas nada. No te venden productividad. Te venden que la excursión del colegio ya está pagada.
 
-Están haciendo las cosas bien, y desde luego tienen mi absoluto interés. Ahora solo tienen que convencer a un continente entero de que ya no son la empresa del Candy Crush.
+Están haciendo las cosas bien, y desde luego tienen mi absoluto interés.
+
+Porque juntando las piezas queda un plan bastante claro: un agente que le quita trabajo aburrido a gente que no sabe lo que es un agente, un cacharro simpático para hablar con él, unas gafas que te quitan el gesto de mirar el móvil, y una suscripción de tres euros que lo envuelve todo y que algún día te guardará también los archivos.
+
+Ahora solo tienen que convencer a un continente entero de que ya no son la empresa del Candy Crush.
 
 ## Fuentes
 
@@ -146,6 +186,9 @@ Están haciendo las cosas bien, y desde luego tienen mi absoluto interés. Ahora
 - [With the Humane AI Pin now dead, what does the Rabbit R1 need to do to survive?](https://www.techradar.com/computing/artificial-intelligence/with-the-humane-ai-pin-now-dead-what-does-the-rabbit-r1-need-to-do-to-survive), TechRadar
 - [Apple Just Raised the Vision Pro's Price With No Successor in Sight](https://vr.org/articles/vision-pro-price-increase-3699-enterprise-signal-2026), VR.org
 - [Everything We Announced at Meta Connect 2026](https://www.meta.com/blog/meta-connect-2026-everything-we-announced/), Meta
+- [Introducing Meta One: A Subscription Service With More Features and AI](https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/), Meta
+- [Meta's Muse Arrives With Three Pricing Tiers and Payment Access](https://finance.yahoo.com/technology/ai/articles/metas-muse-arrives-three-pricing-183437528.html), vía Reuters
+- [Meta One Turns Instagram, WhatsApp And Meta AI Into A Subscription](https://www.forbes.com/sites/gabrielalinzainescu/2026/09/15/meta-one-turns-instagram-whatsapp-and-meta-ai-into-a-subscription/), Forbes
 - [Introducing Ray-Ban Meta Audio and More AI Glasses Styles](https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/), Meta
 - [Meta Connect 2026 live blog](https://www.engadget.com/2266105/meta-connect-2026-live-blog-ai-vr/), Engadget
 
