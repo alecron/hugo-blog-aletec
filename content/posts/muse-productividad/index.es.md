@@ -55,7 +55,9 @@ El Charm es un aparato de llavero, del tamaño de la palma de la mano, con una p
 
 Zuckerberg lo resumió así: han metido toda la experiencia de Muse, incluida la voz y el avatar en tiempo real, en algo que cabe en un llavero y con lo que siempre puedes hablar.
 
-Sale en diciembre. Todavía no hay precio, se espera que ronde lo que cuesta un smartwatch, y Meta reconoce que solo han fabricado unas pocas unidades y que el diseño no está cerrado.
+Sobre la fecha, cuidado con lo que leas: en su propio blog Meta solo dice que dará detalles "más adelante en 2026". Lo de diciembre sale de lo que dijo Zuckerberg en el escenario, que lo quieren tener listo para la campaña de navidad, y así lo recogió la prensa. Tampoco hay precio anunciado, solo la especulación de que rondará lo que cuesta un smartwatch. Y Meta reconoce que de momento han fabricado unas pocas unidades y que el diseño no está cerrado.
+
+Meta lo describe con estas palabras: "a delightful and fun device built for you to talk and interact with your Muse". Un cacharro simpático y divertido. Fíjate en que no dice ni productividad, ni asistente, ni dispositivo de cómputo.
 
 ¿Qué problema ataca? El de la fricción. No pretende sustituir tu móvil, pretende que no tengas que sacarlo. Es un Tamagotchi con el que se puede hablar, y eso, que suena a broma, es probablemente la decisión de diseño más inteligente de todo el evento: le da una cara a algo que no la tenía, y le quita el aura de herramienta.
 
@@ -65,9 +67,29 @@ Sale en diciembre. Todavía no hay precio, se espera que ronde lo que cuesta un 
 
 Llevan lo que Meta llama 5K Infinite Display sobre paneles micro-OLED, y sacan el procesamiento, la batería y el almacenamiento a un puck que llevas en el bolsillo. No tienen cámaras tradicionales: tiran de seguimiento de ojos y de manos. Son el primer dispositivo de VR con certificación IMAX Enhanced, con cine en 3D y deporte en directo.
 
-Y aquí está la clave, porque no las están vendiendo como un ordenador que te pones en la cara. Las están vendiendo como un cine personal, una consola y un espacio de trabajo. Tres cosas que tu tío entiende sin que le expliques nada.
+Y aquí está la clave, porque no las están vendiendo como un ordenador que te pones en la cara. La frase de Meta en su propio blog es que meten "a cinema, a workspace, and a console into a comfortable form factor". Un cine, un escritorio y una consola. Tres cosas que tu tío entiende sin que le expliques nada.
 
-Mención aparte para las Ray-Ban Meta de solo audio: le han quitado la cámara entera. Con eso se han cargado de golpe la crítica que arrastraba toda la línea desde el día uno, la de que puedes estar grabando a alguien sin que lo sepa. Y de paso han bajado a 43 gramos, las más ligeras que han hecho. Quitar una función para resolver un problema social, no técnico. Eso es madurez de producto.
+Mención aparte para las Ray-Ban Meta Audio, sus primeras gafas de solo audio: le han quitado la cámara entera. Cuestan 349 dólares, se pueden reservar ya, salen el 13 de octubre, y según Meta pesan 43 gramos con 12 horas de batería más 48 de la funda.
+
+Y aquí toca ser honesto con las fuentes. **Meta no dice en ningún momento que haya quitado la cámara por privacidad.** Lo único que dijo Zuckerberg del tema fue, textualmente, "without cameras, this opens up a lot of new design possibilities". Lo justificó por diseño, no por privacidad.
+
+Ahora, mi lectura: da igual por qué lo hayan hecho, el efecto es que se cargan de golpe la crítica que arrastraba toda la línea desde el día uno, la de que puedes estar grabando a alguien sin que lo sepa. Quitar una función y que eso resuelva un problema social sigue siendo madurez de producto, aunque en el escenario lo vendan como decisión estética.
+
+## Un matiz importante, y quiero ser preciso con él
+
+Antes de seguir, una corrección a mi propia tesis, porque si no me la vais a poner en comentarios y con razón.
+
+He dicho que Meta no pretende sustituir tu móvil. Eso es cierto **para Muse y para el Charm**. Meta describe el Charm como algo que cabe en el bolsillo y con lo que hablas, y Zuckerberg lo presentó como la forma más rápida de hablar con tu Muse para quien no lleve gafas. Es un accesorio, y encima uno que se define por lo que hace cuando no llevas la otra cosa.
+
+Pero **con las gafas la historia es distinta**, y no hace falta que me lo invente ni que se lo atribuya a ningún periodista. Está en el copy de Meta. Las funciones están pensadas, literalmente, "to help you stay present instead of looking down at a screen". Y sobre Muse en las gafas dicen que te ayudará a gestionar tu vida diaria "all without reaching for your phone".
+
+Eso es exactamente ir a por el móvil. No a la fuerza, no mañana, pero la dirección está escrita por ellos.
+
+Dicho esto, quiero ser justo con el nivel de evidencia: **en el keynote Zuckerberg no dijo en ningún momento que las gafas vayan a sustituir al móvil.** Ese titular existe, lo he visto en varios medios, pero es interpretación de prensa construida sobre cosas que él ha dicho en años anteriores. Lo que hay de este evento es el copy de arriba, que apunta en esa dirección sin afirmarlo.
+
+Así que el matiz correcto no es "Meta no quiere sustituir tu móvil". Es que Meta ha dejado de intentar sustituirlo de golpe con un cacharro que te obligue a cambiar de hábitos, y ha empezado a rodearlo. Primero te quita de encima el trámite. Luego te quita el gesto de mirar la pantalla. Y para cuando te quieras dar cuenta, el móvil sigue en tu bolsillo pero ya no lo sacas.
+
+Eso es mucho más listo que lanzar un asesino del iPhone.
 
 ## Contra lo que ya existía
 
@@ -123,3 +145,8 @@ Están haciendo las cosas bien, y desde luego tienen mi absoluto interés. Ahora
 - [Meta debuts Muse, its long-planned personal AI agent](https://www.axios.com/2026/09/08/meta-debuts-muse-personal-ai-agent), Axios
 - [With the Humane AI Pin now dead, what does the Rabbit R1 need to do to survive?](https://www.techradar.com/computing/artificial-intelligence/with-the-humane-ai-pin-now-dead-what-does-the-rabbit-r1-need-to-do-to-survive), TechRadar
 - [Apple Just Raised the Vision Pro's Price With No Successor in Sight](https://vr.org/articles/vision-pro-price-increase-3699-enterprise-signal-2026), VR.org
+- [Everything We Announced at Meta Connect 2026](https://www.meta.com/blog/meta-connect-2026-everything-we-announced/), Meta
+- [Introducing Ray-Ban Meta Audio and More AI Glasses Styles](https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/), Meta
+- [Meta Connect 2026 live blog](https://www.engadget.com/2266105/meta-connect-2026-live-blog-ai-vr/), Engadget
+
+Una nota sobre las fuentes, porque me parece importante: las cifras y las descripciones de producto salen del blog y de la sala de prensa de Meta siempre que existen ahí. Las frases entre comillas son textuales del keynote o del copy de Meta. Donde algo es interpretación de prensa y no una declaración, lo digo en el texto. Si un dato no lo he podido confirmar en una fuente primaria, está marcado como lo que es.
